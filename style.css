@@ -1,0 +1,102 @@
+*body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-image: url('top-view-books-with-copy-space.jpg');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0%;
+    
+}
+h1{
+    text-align: center;
+font-family: 'Trebuchet MS', sans-serif;
+font-weight: lighter;
+letter-spacing: 2px;
+font-size: 50px;
+margin-top: 80px;
+margin-bottom: -10px;
+
+
+}
+h1 span{
+    color: rgb(20, 129, 16);
+}
+#book-form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Trebuchet MS', sans-serif;
+ font-weight: lighter;
+    width: 60%;
+    height: 40vh;
+    overflow: hidden;
+}
+.form-group{
+width: 500px;
+display:flex;
+flex-direction: column;
+height: 8vh;
+}
+.book-group-btn{
+    width: 500px;
+    flex-direction: column;
+    height: 8vh;
+    }
+label{
+font-size: 14px;
+}
+#title, #author, #isbn{
+    width:600px;    
+    height: 4vh;
+    background-color: transparent;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+    outline: none;
+ 
+
+
+}
+ #title:hover{
+    border: rgb(20, 129, 16) 2px solid;
+    background-color: rgb(112, 112, 122);
+}
+#isbn:hover{
+    background-color: rgb(112, 112, 122);
+    border: rgb(20, 129, 16) 2px solid;
+}
+
+#author:hover{
+    background-color: rgb(112, 112, 122);
+    border: rgb(20, 129, 16) 2px solid;
+}
+
+
+.btn{
+    width: 450px;
+    height: 4vh;
+   background-color: rgb(20, 129, 16);
+   color: white;
+   border: none;
+    font-size:12px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+table{
+    background-color: lightgreen;
+    width: 100%;
+}
+thead{
+    background-color: lightsalmon;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
