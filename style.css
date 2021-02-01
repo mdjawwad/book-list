@@ -1,6 +1,6 @@
 *body{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 
 }
 .container{
@@ -68,15 +68,15 @@ font-size: 14px;
 }
  #title:hover{
     border: rgb(20, 129, 16) 2px solid;
-    background-color: rgb(112, 112, 122);
+    background-color: rgb(255, 227, 227);
 }
 #isbn:hover{
-    background-color: rgb(112, 112, 122);
+    background-color:rgb(255, 227, 227);
     border: rgb(20, 129, 16) 2px solid;
 }
 
 #author:hover{
-    background-color: rgb(112, 112, 122);
+    background-color: rgb(255, 227, 227);
     border: rgb(20, 129, 16) 2px solid;
 }
 
@@ -92,11 +92,126 @@ font-size: 14px;
     margin-top: 20px;
 }
 table{
-    background-color: lightgreen;
+    background-color: rgb(238, 238, 238);
     width: 100%;
+    text-align: center;
+
+
 }
 thead{
-    background-color: lightsalmon;
+    background-color: rgb(255, 220, 220);
+   
+    
     font-family: 'Trebuchet MS', sans-serif;
 
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:500px){
+    .container{
+        width: 100%;
+        background-size: cover;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #book-form{
+        width: 100%;
+        overflow: hidden;
+    }
+    .form-group{
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+        overflow: hidden;
+        margin: 0 !important;
+        margin-top: 12px !important;
+        outline: none;
+    }
+    #title, #author, #isbn{
+        width: 100%;
+    }
+    .table{
+        width: 100%;
+    }
+    #hello{
+        width: 100% !important;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:800px){
+    .container{
+        width: 100%;
+        background-size: cover;
+    }
+    h1{
+        font-size: 45px;
+    }
+    #book-form{
+        width: 100%;
+        overflow: hidden;
+    }
+    .form-group{
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+        overflow: hidden;
+        margin: 0 !important;
+        margin-top: 12px !important;
+        outline: none;
+    }
+    #title, #author, #isbn{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:800px) and (max-width:1200px){
+    .container{
+        width: 100%;
+        background-size: cover;
+    }
+    h1{
+        font-size: 55px;
+    }
+    #book-form{
+        width: 100%;
+        overflow: hidden;
+    }
+    .form-group{
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+        overflow: hidden;
+        margin: 0 !important;
+        margin-top: 12px !important;
+        outline: none;
+    }
+    #title, #author, #isbn{
+        width: 100%;
+    }
 }
